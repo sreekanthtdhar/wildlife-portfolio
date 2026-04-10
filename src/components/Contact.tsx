@@ -1,4 +1,4 @@
-import React, {FormEvent, useState} from 'react';
+import React, {useState, type FormEvent} from 'react';
 import {useInView} from 'react-intersection-observer';
 import {colors} from '../theme/colors';
 
