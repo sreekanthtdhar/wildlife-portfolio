@@ -134,6 +134,15 @@ export const photos: Photo[] = [
     aspectRatio: 1.5,
     src: r2src('C18C7031-805B-4A58-9789-86DBCD3EAB31_1_105_c.jpeg'),
   },
+  {
+    id: 'elk-02',
+    title: 'Tule Elk Portrait Among Wildflowers',
+    location: 'Northern California',
+    category: 'mammals',
+    tags: ['elk', 'tule elk', 'velvet', 'portrait', 'wildflowers'],
+    aspectRatio: 0.75,
+    src: r2src('C9E1BF4F-992F-4BC0-9C39-1E5C3B33085A_1_105_c.jpeg'),
+  },
 ];
 
 export const allCategories: Category[] = ['birds', 'mammals', 'reptiles', 'insects', 'marine'];
