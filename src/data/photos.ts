@@ -11,7 +11,7 @@ export type Photo = {
 };
 
 // ─── R2 Bucket Base URL ───────────────────────────────────────────────────────
-const R2 = 'https://pub-0b4c30aaced341699062a2824e67c766.r2.dev/wildlife-photos';
+const R2 = 'https://pub-0b4c30aaced341699062a2824e67c766.r2.dev';
 
 // ─── Helper to build src object when using a single image for all sizes ───────
 const r2src = (filename: string) => ({
