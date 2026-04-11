@@ -12,27 +12,15 @@ export function About() {
           <p style={styles.eyebrow}>The Photographer</p>
           <h2 style={styles.title}>About Me</h2>
           <p style={styles.body}>
-            I'm a wildlife photographer with a passion for capturing the untamed beauty of
-            nature. With over a decade behind the lens, I've tracked snow leopards in the
-            Himalayas, documented bird migrations across continents, and spent countless
-            golden hours waiting for the perfect moment.
+            Hi, I'm Sreekanth — a hobbyist wildlife photographer with a love for capturing
+            birds in action. Armed with a camera and a lot of patience, I spend my weekends
+            exploring local wetlands, parks, and open spaces in search of that perfect moment.
           </p>
           <p style={styles.body}>
-            My work has been featured in National Geographic, BBC Wildlife, and exhibited
-            in galleries across Europe and Asia. Every photograph is a testament to the
-            extraordinary diversity of life on our planet — and a reminder of what we
-            must protect.
+            From hummingbirds hovering mid-air to stilts splashing off a marsh at golden hour,
+            I'm drawn to the energy and beauty of birds in their natural element. This portfolio
+            is a collection of moments that made me stop, wait, and press the shutter.
           </p>
-          <div style={styles.stats}>
-            {[['12+', 'Years Shooting'], ['40+', 'Countries Visited'], ['200+', 'Species Documented']].map(
-              ([num, label]) => (
-                <div key={label} style={styles.stat}>
-                  <span style={styles.statNum}>{num}</span>
-                  <span style={styles.statLabel}>{label}</span>
-                </div>
-              ),
-            )}
-          </div>
         </div>
 
         <div className={`fade-in${inView ? ' visible' : ''}`} style={{...styles.imageWrap, transitionDelay: '0.2s'}}>
@@ -42,7 +30,7 @@ export function About() {
             alt="Wildlife photographer in the field"
             style={styles.portrait}
           />
-          <div style={styles.imageCaption}>In the field, Serengeti 2024</div>
+          <div style={styles.imageCaption}>Sreekanth — wildlife photographer</div>
         </div>
       </div>
     </section>
