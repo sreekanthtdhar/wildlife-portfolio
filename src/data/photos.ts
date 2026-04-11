@@ -116,6 +116,24 @@ export const photos: Photo[] = [
     aspectRatio: 1.5,
     src: r2src('B9FE4854-73DB-4C76-A46A-17C6691FFA67_1_105_c.jpeg'),
   },
+  {
+    id: 'stilts-02',
+    title: 'Stilts Taking Off at Golden Hour',
+    location: 'California Wetlands',
+    category: 'birds',
+    tags: ['stilt', 'shorebird', 'golden hour', 'wetlands', 'flight'],
+    aspectRatio: 1.777,
+    src: r2src('CD8DC2B3-80F8-4605-8AE0-001E03DC263E_1_105_c.jpeg'),
+  },
+  {
+    id: 'elk-01',
+    title: 'Tule Elk in Velvet',
+    location: 'Northern California',
+    category: 'mammals',
+    tags: ['elk', 'tule elk', 'velvet', 'antlers', 'portrait'],
+    aspectRatio: 1.5,
+    src: r2src('C18C7031-805B-4A58-9789-86DBCD3EAB31_1_105_c.jpeg'),
+  },
 ];
 
 export const allCategories: Category[] = ['birds', 'mammals', 'reptiles', 'insects', 'marine'];
