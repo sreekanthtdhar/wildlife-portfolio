@@ -62,6 +62,7 @@ const styles: Record<string, React.CSSProperties> = {
     alignItems: 'center',
     justifyContent: 'space-between',
     padding: '20px 48px',
+    background: 'linear-gradient(to bottom, rgba(0,0,0,0.55) 0%, transparent 100%)',
     transition: 'background 0.3s, padding 0.3s, backdrop-filter 0.3s',
   },
   navScrolled: {
@@ -86,12 +87,13 @@ const styles: Record<string, React.CSSProperties> = {
     gap: 40,
   },
   link: {
-    color: colors.textSecondary,
+    color: colors.textPrimary,
     fontSize: 13,
     fontWeight: 500,
     letterSpacing: 1.5,
     textTransform: 'uppercase',
     transition: 'color 0.2s',
+    textShadow: '0 1px 4px rgba(0,0,0,0.6)',
   },
   hamburger: {
     display: 'none',
