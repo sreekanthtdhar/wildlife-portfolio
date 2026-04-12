@@ -26,7 +26,7 @@ const r2src = (filename: string) => ({
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const photos: Photo[] = [
-  // 1 — Ethereal golden opener, widest shot, immediately arresting
+  // 1 — Cinematic wide opener: golden backlit wetlands, misty horizon, motion throughout
   {
     id: 'stilts-02',
     title: 'Stilts Taking Off at Golden Hour',
@@ -36,7 +36,7 @@ export const photos: Photo[] = [
     aspectRatio: 1.777,
     src: r2src('CD8DC2B3-80F8-4605-8AE0-001E03DC263E_1_105_c.jpeg'),
   },
-  // 2 — Warm intimate portrait, strong contrast after the wide opener
+  // 2 — Warm face-on portrait: intimate mammal contrast to the sweeping opener
   {
     id: 'elk-02',
     title: 'Tule Elk Portrait Among Wildflowers',
@@ -46,7 +46,7 @@ export const photos: Photo[] = [
     aspectRatio: 0.75,
     src: r2src('C9E1BF4F-992F-4BC0-9C39-1E5C3B33085A_1_105_c.jpeg'),
   },
-  // 3 — High-contrast dramatic action, black & white birds
+  // 3 — Cool graphic action: crow vs. gulls shifts palette to high-key grey
   {
     id: 'crow-gull-01',
     title: 'Crow and Gulls at the Waterfront',
@@ -56,7 +56,7 @@ export const photos: Photo[] = [
     aspectRatio: 1.82,
     src: r2src('27062EBA-3AFE-4750-992B-BE01B82C8433_1_105_c.jpeg'),
   },
-  // 4 — Vibrant warm portrait, rich reds and greens
+  // 4 — First hummingbird: vibrant warm close-up snaps the palette back to rich colour
   {
     id: 'hummingbird-02',
     title: 'Rufous Hummingbird on Grevillea',
@@ -66,77 +66,7 @@ export const photos: Photo[] = [
     aspectRatio: 0.75,
     src: r2src('8478A6C3-7DCD-44E7-8846-838AEC62EF8A_1_105_c.jpeg'),
   },
-  // 5 — Dynamic water action, dramatic splash and flight
-  {
-    id: 'stilts-01',
-    title: 'Black-necked Stilts Taking Flight',
-    location: 'California Wetlands',
-    category: 'birds',
-    tags: ['stilt', 'shorebird', 'water', 'flight', 'splash'],
-    aspectRatio: 1.777,
-    src: r2src('19DA5519-349B-4E16-B4C5-548C890B7372_1_105_c.jpeg'),
-  },
-  // 6 — Airy and clean, blue sky backdrop brings breathing room
-  {
-    id: 'hummingbird-03',
-    title: 'Rufous Hummingbird Against the Sky',
-    location: 'California',
-    category: 'birds',
-    tags: ['hummingbird', 'rufous', 'sky', 'portrait', 'perched'],
-    aspectRatio: 0.8,
-    src: r2src('AAA4D698-9F34-4F3B-820B-49BC4C932FC4_1_201_a.jpeg'),
-  },
-  // 7 — Moody dusk silhouette, atmospheric wide shot
-  {
-    id: 'cormorant-01',
-    title: 'Cormorants in Flight at Dusk',
-    location: 'California Coast',
-    category: 'birds',
-    tags: ['cormorant', 'flight', 'dusk', 'silhouette', 'flock'],
-    aspectRatio: 1.5,
-    src: r2src('B9FE4854-73DB-4C76-A46A-17C6691FFA67_1_105_c.jpeg'),
-  },
-  // 8 — Striking dark portrait, bold and minimal
-  {
-    id: 'woodpecker-01',
-    title: 'Acorn Woodpecker Pair on Oak',
-    location: 'California',
-    category: 'birds',
-    tags: ['woodpecker', 'acorn woodpecker', 'oak', 'pair', 'low light'],
-    aspectRatio: 0.563,
-    src: r2src('9B55CC71-B2BE-43D1-8BAE-B0DEA629273B_1_105_c.jpeg'),
-  },
-  // 9 — Moody elk profile in lush greens
-  {
-    id: 'elk-01',
-    title: 'Tule Elk in Velvet',
-    location: 'Northern California',
-    category: 'mammals',
-    tags: ['elk', 'tule elk', 'velvet', 'antlers', 'portrait'],
-    aspectRatio: 1.5,
-    src: r2src('C18C7031-805B-4A58-9789-86DBCD3EAB31_1_105_c.jpeg'),
-  },
-  // 10 — Warm detailed portrait with soft bokeh
-  {
-    id: 'hummingbird-01',
-    title: 'Rufous Hummingbird Perched',
-    location: 'California',
-    category: 'birds',
-    tags: ['hummingbird', 'rufous', 'portrait', 'perched'],
-    aspectRatio: 0.75,
-    src: r2src('4B6B520C-A94D-4D0D-A5DB-F10C5658960B_1_105_c.jpeg'),
-  },
-  // 11 — Classic clear blue sky, heron on nest
-  {
-    id: 'heron-01',
-    title: 'Great Blue Heron on Nest',
-    location: 'California',
-    category: 'birds',
-    tags: ['heron', 'great blue heron', 'nest', 'rookery', 'tree'],
-    aspectRatio: 1.5,
-    src: r2src('AFF3FC0C-2B7D-4387-8FF0-26F5D6132893_1_105_c.jpeg'),
-  },
-  // 12 — Bright cheerful green meadow, behavioural moment
+  // 5 — Open lush landscape: coyote pair howling, bright green meadow, mammal variety
   {
     id: 'coyote-01',
     title: 'Coyote Pair on a Hillside',
@@ -146,17 +76,47 @@ export const photos: Photo[] = [
     aspectRatio: 1.333,
     src: r2src('1EB24110-6527-4432-AECF-4D7406362F4C_1_105_c.jpeg'),
   },
-  // 13 — Quiet forest closer, calm and contemplative
+  // 6 — Bold dark portrait: woodpecker pair nearly dissolves into shadow — striking contrast
   {
-    id: 'squirrel-01',
-    title: 'Ground Squirrel on a Log',
+    id: 'woodpecker-01',
+    title: 'Acorn Woodpecker Pair on Oak',
     location: 'California',
-    category: 'mammals',
-    tags: ['squirrel', 'ground squirrel', 'log', 'forest'],
-    aspectRatio: 1.777,
-    src: r2src('5C77A578-764C-4FD8-A660-2C72BD04522A_1_105_c.jpeg'),
+    category: 'birds',
+    tags: ['woodpecker', 'acorn woodpecker', 'oak', 'pair', 'low light'],
+    aspectRatio: 0.563,
+    src: r2src('9B55CC71-B2BE-43D1-8BAE-B0DEA629273B_1_105_c.jpeg'),
   },
-  // 14 — Backlit squirrel portrait, standing alert on wooden post
+  // 7 — Moody elk profile: rich green bg carries the darkness forward into mammals
+  {
+    id: 'elk-01',
+    title: 'Tule Elk in Velvet',
+    location: 'Northern California',
+    category: 'mammals',
+    tags: ['elk', 'tule elk', 'velvet', 'antlers', 'portrait'],
+    aspectRatio: 1.5,
+    src: r2src('C18C7031-805B-4A58-9789-86DBCD3EAB31_1_105_c.jpeg'),
+  },
+  // 8 — Second hummingbird: airy blue-sky relief after two consecutive dark shots
+  {
+    id: 'hummingbird-03',
+    title: 'Rufous Hummingbird Against the Sky',
+    location: 'California',
+    category: 'birds',
+    tags: ['hummingbird', 'rufous', 'sky', 'portrait', 'perched'],
+    aspectRatio: 0.8,
+    src: r2src('AAA4D698-9F34-4F3B-820B-49BC4C932FC4_1_201_a.jpeg'),
+  },
+  // 9 — Dynamic water action: stilts splashing — returns to wetlands, separated 8 from opener
+  {
+    id: 'stilts-01',
+    title: 'Black-necked Stilts Taking Flight',
+    location: 'California Wetlands',
+    category: 'birds',
+    tags: ['stilt', 'shorebird', 'water', 'flight', 'splash'],
+    aspectRatio: 1.777,
+    src: r2src('19DA5519-349B-4E16-B4C5-548C890B7372_1_105_c.jpeg'),
+  },
+  // 10 — Backlit squirrel portrait: dark and intimate after the action shot
   {
     id: 'squirrel-02',
     title: 'California Ground Squirrel Standing Alert',
@@ -165,6 +125,46 @@ export const photos: Photo[] = [
     tags: ['squirrel', 'ground squirrel', 'backlit', 'portrait', 'alert'],
     aspectRatio: 0.75,
     src: r2src('3E0F4F6D-A00C-472F-8135-9B6A4D2F68E4_1_201_a.jpeg'),
+  },
+  // 11 — Bright structural moment: heron on nest against vivid blue sky lifts the mood
+  {
+    id: 'heron-01',
+    title: 'Great Blue Heron on Nest',
+    location: 'California',
+    category: 'birds',
+    tags: ['heron', 'great blue heron', 'nest', 'rookery', 'tree'],
+    aspectRatio: 1.5,
+    src: r2src('AFF3FC0C-2B7D-4387-8FF0-26F5D6132893_1_105_c.jpeg'),
+  },
+  // 12 — Third hummingbird: warm soft-bokeh portrait, evenly spaced from 4 and 8
+  {
+    id: 'hummingbird-01',
+    title: 'Rufous Hummingbird Perched',
+    location: 'California',
+    category: 'birds',
+    tags: ['hummingbird', 'rufous', 'portrait', 'perched'],
+    aspectRatio: 0.75,
+    src: r2src('4B6B520C-A94D-4D0D-A5DB-F10C5658960B_1_105_c.jpeg'),
+  },
+  // 13 — Atmospheric penultimate: cormorant silhouettes at dusk, foreboding send-off
+  {
+    id: 'cormorant-01',
+    title: 'Cormorants in Flight at Dusk',
+    location: 'California Coast',
+    category: 'birds',
+    tags: ['cormorant', 'flight', 'dusk', 'silhouette', 'flock'],
+    aspectRatio: 1.5,
+    src: r2src('B9FE4854-73DB-4C76-A46A-17C6691FFA67_1_105_c.jpeg'),
+  },
+  // 14 — Quiet forest closer: squirrel on sunlit log, calm and contemplative ending
+  {
+    id: 'squirrel-01',
+    title: 'Ground Squirrel on a Log',
+    location: 'California',
+    category: 'mammals',
+    tags: ['squirrel', 'ground squirrel', 'log', 'forest'],
+    aspectRatio: 1.777,
+    src: r2src('5C77A578-764C-4FD8-A660-2C72BD04522A_1_105_c.jpeg'),
   },
 ];
 
