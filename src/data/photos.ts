@@ -156,6 +156,16 @@ export const photos: Photo[] = [
     aspectRatio: 1.777,
     src: r2src('5C77A578-764C-4FD8-A660-2C72BD04522A_1_105_c.jpeg'),
   },
+  // 14 — Backlit squirrel portrait, standing alert on wooden post
+  {
+    id: 'squirrel-02',
+    title: 'California Ground Squirrel Standing Alert',
+    location: 'California',
+    category: 'mammals',
+    tags: ['squirrel', 'ground squirrel', 'backlit', 'portrait', 'alert'],
+    aspectRatio: 0.75,
+    src: r2src('3E0F4F6D-A00C-472F-8135-9B6A4D2F68E4_1_201_a.jpeg'),
+  },
 ];
 
 export const allCategories: Category[] = ['birds', 'mammals', 'reptiles', 'insects', 'marine'];
