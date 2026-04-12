@@ -44,8 +44,7 @@ const styles: Record<string, React.CSSProperties> = {
   bg: {
     position: 'absolute',
     inset: 0,
-    // Replace the URL below with your own hero image: url('/images/hero/hero-bg.webp')
-    backgroundImage: 'url(https://picsum.photos/seed/herowild/1920/1080)',
+    backgroundImage: 'url(https://pub-0b4c30aaced341699062a2824e67c766.r2.dev/CD8DC2B3-80F8-4605-8AE0-001E03DC263E_1_105_c.jpeg)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     transform: 'scale(1.05)',
