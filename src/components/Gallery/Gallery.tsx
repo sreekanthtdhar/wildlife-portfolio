@@ -1,27 +1,29 @@
 import React, {useState} from 'react';
 import Lightbox from 'yet-another-react-lightbox';
 import Zoom from 'yet-another-react-lightbox/plugins/zoom';
-import Captions from 'yet-another-react-lightbox/plugins/captions';
 import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails';
 import 'yet-another-react-lightbox/styles.css';
-import 'yet-another-react-lightbox/plugins/captions.css';
 import 'yet-another-react-lightbox/plugins/thumbnails.css';
 
 import {useFilter} from '../../hooks/useFilter';
 import {FilterBar} from './FilterBar';
 import {PhotoGrid} from './PhotoGrid';
+import {PhotoInfoPanel} from './PhotoInfoPanel';
 import {useInView} from 'react-intersection-observer';
 import {colors} from '../../theme/colors';
+import type {Photo} from '../../data/photos';
+
+// Extend YARL's slide type to carry the full photo object
+type PhotoSlide = { src: string; photo: Photo };
 
 export function Gallery() {
   const {filtered, activeCategory, setActiveCategory, activeLocation, setActiveLocation} = useFilter();
   const [lightboxIndex, setLightboxIndex] = useState(-1);
   const {ref, inView} = useInView({triggerOnce: true, rootMargin: '-50px'});
 
-  const slides = filtered.map(p => ({
+  const slides: PhotoSlide[] = filtered.map(p => ({
     src: p.src.full,
-    title: p.title,
-    description: `${p.location}${p.exif ? ` · ${p.exif.camera ?? ''} ${p.exif.lens ?? ''} ${p.exif.shutter ?? ''} ISO${p.exif.iso ?? ''}`.trim() : ''}`,
+    photo: p,
   }));
 
   return (
@@ -50,7 +52,16 @@ export function Gallery() {
         index={lightboxIndex}
         slides={slides}
         close={() => setLightboxIndex(-1)}
-        plugins={[Zoom, Captions, Thumbnails]}
+        plugins={[Zoom, Thumbnails]}
+        render={{
+          slideFooter: ({ slide }) => {
+            const photo = (slide as PhotoSlide).photo;
+            return photo ? <PhotoInfoPanel photo={photo} /> : null;
+          },
+        }}
+        styles={{
+          container: { backgroundColor: 'rgba(0,0,0,0.96)' },
+        }}
       />
     </section>
   );
