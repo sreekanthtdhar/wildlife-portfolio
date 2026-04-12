@@ -55,7 +55,7 @@ export const photos: Photo[] = [
   {
     id: 'crow-gull-01',
     title: 'Crow and Gulls at the Waterfront',
-    location: 'San Francisco Waterfront, CA',
+    location: 'San Jose, CA',
     category: 'birds',
     tags: ['crow', 'seagull', 'gull', 'flight', 'urban'],
     aspectRatio: 1.82,
@@ -66,7 +66,7 @@ export const photos: Photo[] = [
   {
     id: 'hummingbird-02',
     title: 'Rufous Hummingbird on Grevillea',
-    location: 'Santa Clara County, CA',
+    location: 'UCSC Arboretum, Santa Cruz, CA',
     category: 'birds',
     tags: ['hummingbird', 'rufous', 'flower', 'grevillea', 'portrait'],
     aspectRatio: 0.75,
@@ -78,7 +78,7 @@ export const photos: Photo[] = [
   {
     id: 'coyote-01',
     title: 'Coyote Pair on a Hillside',
-    location: 'Marin Headlands, CA',
+    location: 'Point Reyes National Seashore, CA',
     category: 'mammals',
     tags: ['coyote', 'pair', 'meadow', 'grassland'],
     aspectRatio: 1.333,
@@ -90,7 +90,7 @@ export const photos: Photo[] = [
   {
     id: 'woodpecker-01',
     title: 'Acorn Woodpecker Pair on Oak',
-    location: 'Rancho San Antonio Open Space, CA',
+    location: 'Coyote Hills Regional Park, CA',
     category: 'birds',
     tags: ['woodpecker', 'acorn woodpecker', 'oak', 'pair', 'low light'],
     aspectRatio: 0.563,
@@ -113,7 +113,7 @@ export const photos: Photo[] = [
   {
     id: 'hummingbird-03',
     title: 'Rufous Hummingbird Against the Sky',
-    location: 'Santa Clara County, CA',
+    location: 'UCSC Arboretum, Santa Cruz, CA',
     category: 'birds',
     tags: ['hummingbird', 'rufous', 'sky', 'portrait', 'perched'],
     aspectRatio: 0.8,
@@ -147,7 +147,7 @@ export const photos: Photo[] = [
   {
     id: 'heron-01',
     title: 'Great Blue Heron on Nest',
-    location: 'Palo Alto Baylands, CA',
+    location: 'Ed Levin County Park, CA',
     category: 'birds',
     tags: ['heron', 'great blue heron', 'nest', 'rookery', 'tree'],
     aspectRatio: 1.5,
@@ -158,7 +158,7 @@ export const photos: Photo[] = [
   {
     id: 'hummingbird-01',
     title: 'Rufous Hummingbird Perched',
-    location: 'Santa Clara County, CA',
+    location: 'UCSC Arboretum, Santa Cruz, CA',
     category: 'birds',
     tags: ['hummingbird', 'rufous', 'portrait', 'perched'],
     aspectRatio: 0.75,
