@@ -36,7 +36,7 @@ export const photos: Photo[] = [
     tags: ['stilt', 'shorebird', 'golden hour', 'wetlands', 'flight'],
     aspectRatio: 1.777,
     src: r2src('CD8DC2B3-80F8-4605-8AE0-001E03DC263E_1_105_c.jpeg'),
-    exif: { camera: 'Sony A1', lens: '200–600mm f/5.6–6.3 G', aperture: 'f/6.3', shutter: '1/2000s', iso: 800 },
+    exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 200mm', aperture: 'f/5.6', shutter: '1/4000s', iso: 640 },
     story: 'The flock had been wading calmly for twenty minutes when something spooked them all at once. I had maybe a second to react — this was the frame.',
   },
   // 2 — Warm face-on portrait: intimate mammal contrast to the sweeping opener
@@ -48,7 +48,7 @@ export const photos: Photo[] = [
     tags: ['elk', 'tule elk', 'velvet', 'portrait', 'wildflowers'],
     aspectRatio: 0.75,
     src: r2src('C9E1BF4F-992F-4BC0-9C39-1E5C3B33085A_1_105_c.jpeg'),
-    exif: { camera: 'Sony A1', lens: '200–600mm f/5.6–6.3 G', aperture: 'f/6.3', shutter: '1/640s', iso: 400 },
+    exif: { camera: 'Sony α6700', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/1250s', iso: 320 },
     story: 'He looked up from the wildflowers and held my gaze for a full three seconds. The velvet antlers were still soft to the touch of the afternoon light.',
   },
   // 3 — Cool graphic action: crow vs. gulls shifts palette to high-key grey
@@ -60,7 +60,7 @@ export const photos: Photo[] = [
     tags: ['crow', 'seagull', 'gull', 'flight', 'urban'],
     aspectRatio: 1.82,
     src: r2src('27062EBA-3AFE-4750-992B-BE01B82C8433_1_105_c.jpeg'),
-    exif: { camera: 'Sony A1', lens: '100–400mm f/4.5–5.6 GM', aperture: 'f/5.6', shutter: '1/3200s', iso: 640 },
+    exif: { camera: 'Sony α6000', lens: 'E 70–300mm f/4.5–6.3 G OSS @ 232mm', aperture: 'f/5.6', shutter: '1/2500s', iso: 2500 },
   },
   // 4 — First hummingbird: vibrant warm close-up snaps the palette back to rich colour
   {
@@ -71,7 +71,7 @@ export const photos: Photo[] = [
     tags: ['hummingbird', 'rufous', 'flower', 'grevillea', 'portrait'],
     aspectRatio: 0.75,
     src: r2src('8478A6C3-7DCD-44E7-8846-838AEC62EF8A_1_105_c.jpeg'),
-    exif: { camera: 'Sony A1', lens: '100–400mm f/4.5–5.6 GM', aperture: 'f/5.6', shutter: '1/1600s', iso: 250 },
+    exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/1600s', iso: 640 },
     story: 'Rufous hummingbirds are fiercely territorial. This male had been chasing every other bird from the grevillea for an hour before finally settling long enough for a clean shot.',
   },
   // 5 — Open lush landscape: coyote pair howling, bright green meadow, mammal variety
@@ -83,7 +83,7 @@ export const photos: Photo[] = [
     tags: ['coyote', 'pair', 'meadow', 'grassland'],
     aspectRatio: 1.333,
     src: r2src('1EB24110-6527-4432-AECF-4D7406362F4C_1_105_c.jpeg'),
-    exif: { camera: 'Sony A1', lens: '200–600mm f/5.6–6.3 G', aperture: 'f/6.3', shutter: '1/800s', iso: 500 },
+    exif: { camera: 'Sony α6700', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/8', shutter: '1/1250s', iso: 6400 },
     story: 'They started howling together completely unprompted, noses raised to the sky. I counted seven distinct calls before they went quiet and trotted off into the lupine.',
   },
   // 6 — Bold dark portrait: woodpecker pair nearly dissolves into shadow — striking contrast
@@ -95,7 +95,7 @@ export const photos: Photo[] = [
     tags: ['woodpecker', 'acorn woodpecker', 'oak', 'pair', 'low light'],
     aspectRatio: 0.563,
     src: r2src('9B55CC71-B2BE-43D1-8BAE-B0DEA629273B_1_105_c.jpeg'),
-    exif: { camera: 'Sony A1', lens: '200–600mm f/5.6–6.3 G', aperture: 'f/6.3', shutter: '1/400s', iso: 3200 },
+    exif: { camera: 'Sony α6700', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 407mm', aperture: 'f/6.3', shutter: '1/3200s', iso: 500 },
     story: 'The pair were nearly invisible against the dark oak bark until one tilted its head and caught a sliver of late light on that brilliant red cap.',
   },
   // 7 — Moody elk profile: rich green bg carries the darkness forward into mammals
@@ -107,7 +107,7 @@ export const photos: Photo[] = [
     tags: ['elk', 'tule elk', 'velvet', 'antlers', 'portrait'],
     aspectRatio: 1.5,
     src: r2src('C18C7031-805B-4A58-9789-86DBCD3EAB31_1_105_c.jpeg'),
-    exif: { camera: 'Sony A1', lens: '200–600mm f/5.6–6.3 G', aperture: 'f/6.3', shutter: '1/500s', iso: 1600 },
+    exif: { camera: 'Sony α6700', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/8', shutter: '1/1250s', iso: 1000 },
   },
   // 8 — Second hummingbird: airy blue-sky relief after two consecutive dark shots
   {
@@ -118,7 +118,7 @@ export const photos: Photo[] = [
     tags: ['hummingbird', 'rufous', 'sky', 'portrait', 'perched'],
     aspectRatio: 0.8,
     src: r2src('AAA4D698-9F34-4F3B-820B-49BC4C932FC4_1_201_a.jpeg'),
-    exif: { camera: 'Sony A1', lens: '100–400mm f/4.5–5.6 GM', aperture: 'f/5.6', shutter: '1/2500s', iso: 320 },
+    exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/2500s', iso: 1000 },
   },
   // 9 — Dynamic water action: stilts splashing — returns to wetlands, separated 8 from opener
   {
@@ -129,7 +129,7 @@ export const photos: Photo[] = [
     tags: ['stilt', 'shorebird', 'water', 'flight', 'splash'],
     aspectRatio: 1.777,
     src: r2src('19DA5519-349B-4E16-B4C5-548C890B7372_1_105_c.jpeg'),
-    exif: { camera: 'Sony A1', lens: '200–600mm f/5.6–6.3 G', aperture: 'f/6.3', shutter: '1/4000s', iso: 1000 },
+    exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/4000s', iso: 640 },
   },
   // 10 — Backlit squirrel portrait: dark and intimate after the action shot
   {
@@ -140,7 +140,7 @@ export const photos: Photo[] = [
     tags: ['squirrel', 'ground squirrel', 'backlit', 'portrait', 'alert'],
     aspectRatio: 0.75,
     src: r2src('3E0F4F6D-A00C-472F-8135-9B6A4D2F68E4_1_201_a.jpeg'),
-    exif: { camera: 'Sony A1', lens: '200–600mm f/5.6–6.3 G', aperture: 'f/6.3', shutter: '1/1000s', iso: 800 },
+    exif: { camera: 'Sony α6700', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/3200s', iso: 320 },
     story: 'Standing upright on a fence post with the sun behind him, he held this pose for nearly 30 seconds — scanning the open field for hawks. The rim-lit fur against the dark background made it feel almost like a studio portrait.',
   },
   // 11 — Bright structural moment: heron on nest against vivid blue sky lifts the mood
@@ -152,7 +152,7 @@ export const photos: Photo[] = [
     tags: ['heron', 'great blue heron', 'nest', 'rookery', 'tree'],
     aspectRatio: 1.5,
     src: r2src('AFF3FC0C-2B7D-4387-8FF0-26F5D6132893_1_105_c.jpeg'),
-    exif: { camera: 'Sony A1', lens: '200–600mm f/5.6–6.3 G', aperture: 'f/6.3', shutter: '1/1250s', iso: 200 },
+    exif: { camera: 'Sony α6700', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/8', shutter: '1/2000s', iso: 1600 },
   },
   // 12 — Third hummingbird: warm soft-bokeh portrait, evenly spaced from 4 and 8
   {
@@ -163,7 +163,7 @@ export const photos: Photo[] = [
     tags: ['hummingbird', 'rufous', 'portrait', 'perched'],
     aspectRatio: 0.75,
     src: r2src('4B6B520C-A94D-4D0D-A5DB-F10C5658960B_1_105_c.jpeg'),
-    exif: { camera: 'Sony A1', lens: '100–400mm f/4.5–5.6 GM', aperture: 'f/5.6', shutter: '1/1600s', iso: 320 },
+    exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/2000s', iso: 640 },
   },
   // 13 — Atmospheric penultimate: cormorant silhouettes at dusk, foreboding send-off
   {
@@ -174,7 +174,7 @@ export const photos: Photo[] = [
     tags: ['cormorant', 'flight', 'dusk', 'silhouette', 'flock'],
     aspectRatio: 1.5,
     src: r2src('B9FE4854-73DB-4C76-A46A-17C6691FFA67_1_105_c.jpeg'),
-    exif: { camera: 'Sony A1', lens: '200–600mm f/5.6–6.3 G', aperture: 'f/6.3', shutter: '1/1000s', iso: 1600 },
+    exif: { camera: 'Sony α6700', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/2000s', iso: 500 },
     story: 'Four cormorants in formation, heading south just above the treeline as the last light drained from the sky. No color, no texture — just shape and motion.',
   },
   // 14 — Quiet forest closer: squirrel on sunlit log, calm and contemplative ending
@@ -186,7 +186,7 @@ export const photos: Photo[] = [
     tags: ['squirrel', 'ground squirrel', 'log', 'forest'],
     aspectRatio: 1.777,
     src: r2src('5C77A578-764C-4FD8-A660-2C72BD04522A_1_105_c.jpeg'),
-    exif: { camera: 'Sony A1', lens: '200–600mm f/5.6–6.3 G', aperture: 'f/6.3', shutter: '1/800s', iso: 640 },
+    exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/800s', iso: 640 },
   },
 ];
 
