@@ -123,13 +123,14 @@ export const photos: Photo[] = [
   // 9 — Dynamic water action: stilts splashing — returns to wetlands, separated 8 from opener
   {
     id: 'stilts-01',
-    title: 'Black-necked Stilts Taking Flight',
+    title: 'Black-necked Stilts Mid-Quarrel',
     location: 'Don Edwards San Francisco Bay NWR, CA',
     category: 'birds',
     tags: ['stilt', 'shorebird', 'water', 'flight', 'splash'],
     aspectRatio: 1.777,
     src: r2src('19DA5519-349B-4E16-B4C5-548C890B7372_1_105_c.jpeg'),
     exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/4000s', iso: 640 },
+    story: 'I heard the commotion before I saw it — a sharp, insistent squabble cutting through the marsh. Turned to find these two going at it, water flying in every direction.',
   },
   // 10 — Backlit squirrel portrait: dark and intimate after the action shot
   {
