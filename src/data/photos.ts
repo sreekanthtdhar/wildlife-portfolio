@@ -27,7 +27,7 @@ const r2src = (filename: string) => ({
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const photos: Photo[] = [
-  // 1 — Cinematic wide opener: golden backlit wetlands, mass takeoff sets the tone
+  // 1 — Cinematic wide opener: golden backlit wetlands mass takeoff sets the tone
   {
     id: 'stilts-02',
     title: 'Stilts Taking Off at Golden Hour',
@@ -39,7 +39,7 @@ export const photos: Photo[] = [
     exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 200mm', aperture: 'f/5.6', shutter: '1/4000s', iso: 640 },
     story: 'The flock had been wading calmly for twenty minutes when something spooked them all at once. I had maybe a second to react — this was the frame.',
   },
-  // 2 — Warm intimate portrait: tule elk face-on, immediate mammal contrast to the sweeping opener
+  // 2 — Warm intimate mammal contrast: tule elk face-on after the sweeping opener
   {
     id: 'elk-02',
     title: 'Tule Elk Portrait Among Wildflowers',
@@ -61,7 +61,7 @@ export const photos: Photo[] = [
     aspectRatio: 1.333,
     src: r2src('DSC09122.jpeg'),
   },
-  // 4 — Vibrant warm close-up: rufous on grevillea snaps the palette back to rich color after cool egret
+  // 4 — Vibrant warm close-up: rufous on grevillea snaps the palette back to rich color
   {
     id: 'hummingbird-02',
     title: 'Rufous Hummingbird on Grevillea',
@@ -73,18 +73,7 @@ export const photos: Photo[] = [
     exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/1600s', iso: 640 },
     story: 'Rufous hummingbirds are fiercely territorial. This male had been chasing every other bird from the grevillea for an hour before finally settling long enough for a clean shot.',
   },
-  // 5 — High-key grey action: crow vs. gulls shifts palette to cool urban air
-  {
-    id: 'crow-gull-01',
-    title: 'Crow and Gulls at the Waterfront',
-    location: 'San Jose, CA',
-    category: 'birds',
-    tags: ['crow', 'seagull', 'gull', 'flight', 'urban'],
-    aspectRatio: 1.82,
-    src: r2src('27062EBA-3AFE-4750-992B-BE01B82C8433_1_105_c.jpeg'),
-    exif: { camera: 'Sony α6000', lens: 'E 70–300mm f/4.5–6.3 G OSS @ 232mm', aperture: 'f/5.6', shutter: '1/2500s', iso: 2500 },
-  },
-  // 6 — Bright green breath: coyote pair on sun-drenched meadow, mammal variety after birds
+  // 5 — Sun-drenched mammal pair: coyotes on meadow shift scene from close-up to wide
   {
     id: 'coyote-01',
     title: 'Coyote Pair on a Hillside',
@@ -96,7 +85,38 @@ export const photos: Photo[] = [
     exif: { camera: 'Sony α6700', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/8', shutter: '1/1250s', iso: 6400 },
     story: 'They started howling together completely unprompted, noses raised to the sky. I counted seven distinct calls before they went quiet and trotted off into the lupine.',
   },
-  // 7 — Bold dark portrait: woodpecker pair nearly dissolves into shadow — stark contrast after bright meadow
+  // 6 — Crisp blue-sky portrait: Brandt's Cormorant, iridescent plumage against clean sky
+  {
+    id: 'cormorant-02',
+    title: "Brandt's Cormorant on Post",
+    location: 'San Francisco Bay, CA',
+    category: 'birds',
+    tags: ['cormorant', "brandt's cormorant", 'portrait', 'blue sky', 'perched'],
+    aspectRatio: 0.75,
+    src: r2src('20D87383-3B6E-47DA-A573-98E0D6C9E308_1_105_c.jpeg'),
+  },
+  // 7 — Cool grey urban action: crow vs. gulls lifts energy after the perch
+  {
+    id: 'crow-gull-01',
+    title: 'Crow and Gulls at the Waterfront',
+    location: 'San Jose, CA',
+    category: 'birds',
+    tags: ['crow', 'seagull', 'gull', 'flight', 'urban'],
+    aspectRatio: 1.82,
+    src: r2src('27062EBA-3AFE-4750-992B-BE01B82C8433_1_105_c.jpeg'),
+    exif: { camera: 'Sony α6000', lens: 'E 70–300mm f/4.5–6.3 G OSS @ 232mm', aperture: 'f/5.6', shutter: '1/2500s', iso: 2500 },
+  },
+  // 8 — Marine tenderness: harbor seal mother and pup, warm and still after aerial action
+  {
+    id: 'harbor-seal-01',
+    title: 'Harbor Seal Mother and Pup',
+    location: 'Elkhorn Slough, CA',
+    category: 'marine',
+    tags: ['harbor seal', 'seal', 'pup', 'mother', 'mudflat'],
+    aspectRatio: 1.328,
+    src: r2src('DSC04888.jpeg'),
+  },
+  // 9 — Bold dark portrait: woodpecker pair nearly dissolves into shadow, high contrast after mudflat warmth
   {
     id: 'woodpecker-01',
     title: 'Acorn Woodpecker Pair on Oak',
@@ -108,17 +128,7 @@ export const photos: Photo[] = [
     exif: { camera: 'Sony α6700', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 407mm', aperture: 'f/6.3', shutter: '1/3200s', iso: 500 },
     story: 'The pair were nearly invisible against the dark oak bark until one tilted its head and caught a sliver of late light on that brilliant red cap.',
   },
-  // 8 — Explosive energy: Anna's hummingbird displaying with wings fully spread, vibrant magenta gorget on soft green
-  {
-    id: 'hummingbird-05',
-    title: "Anna's Hummingbird Displaying",
-    location: 'California',
-    category: 'birds',
-    tags: ['hummingbird', "anna's hummingbird", 'gorget', 'display', 'wings'],
-    aspectRatio: 1.333,
-    src: r2src('DSC05778.jpeg'),
-  },
-  // 9 — Moody elk profile: rich green background carries the darkness forward into mammals
+  // 10 — Moody elk profile: rich green deepens the dark forest tone from woodpecker
   {
     id: 'elk-01',
     title: 'Tule Elk in Velvet',
@@ -129,50 +139,17 @@ export const photos: Photo[] = [
     src: r2src('C18C7031-805B-4A58-9789-86DBCD3EAB31_1_105_c.jpeg'),
     exif: { camera: 'Sony α6700', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/8', shutter: '1/1250s', iso: 1000 },
   },
-  // 10 — Marine interlude: harbor seal mother and pup nuzzling on mudflat, warm and tender
+  // 11 — Explosive energy: Anna's displaying with wings fully spread, electric after the forest dark
   {
-    id: 'harbor-seal-01',
-    title: 'Harbor Seal Mother and Pup',
-    location: 'Elkhorn Slough, CA',
-    category: 'marine',
-    tags: ['harbor seal', 'seal', 'pup', 'mother', 'mudflat'],
-    aspectRatio: 1.328,
-    src: r2src('DSC04888.jpeg'),
-  },
-  // 11 — Airy relief: rufous against open sky lifts the mood after earthbound mammals
-  {
-    id: 'hummingbird-03',
-    title: 'Rufous Hummingbird Against the Sky',
-    location: 'UCSC Arboretum, Santa Cruz, CA',
-    category: 'birds',
-    tags: ['hummingbird', 'rufous', 'sky', 'portrait', 'perched'],
-    aspectRatio: 0.8,
-    src: r2src('AAA4D698-9F34-4F3B-820B-49BC4C932FC4_1_201_a.jpeg'),
-    exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/2500s', iso: 1000 },
-  },
-  // 12 — Water action callback: stilts splashing mid-quarrel, wetland energy returns
-  {
-    id: 'stilts-01',
-    title: 'Black-necked Stilts Mid-Quarrel',
-    location: 'Don Edwards San Francisco Bay NWR, CA',
-    category: 'birds',
-    tags: ['stilt', 'shorebird', 'water', 'flight', 'splash'],
-    aspectRatio: 1.777,
-    src: r2src('19DA5519-349B-4E16-B4C5-548C890B7372_1_105_c.jpeg'),
-    exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/4000s', iso: 640 },
-    story: 'I heard the commotion before I saw it — a sharp, insistent squabble cutting through the marsh. Turned to find these two going at it, water flying in every direction.',
-  },
-  // 13 — Yellow burst: western kingbird landing with wings at full span, bold against blue sky
-  {
-    id: 'kingbird-01',
-    title: 'Western Kingbird Landing',
+    id: 'hummingbird-05',
+    title: "Anna's Hummingbird Displaying",
     location: 'California',
     category: 'birds',
-    tags: ['kingbird', 'western kingbird', 'flight', 'landing', 'flycatcher'],
+    tags: ['hummingbird', "anna's hummingbird", 'gorget', 'display', 'wings'],
     aspectRatio: 1.333,
-    src: r2src('DSC07084.jpeg'),
+    src: r2src('DSC05778.jpeg'),
   },
-  // 14 — Dark intimate portrait: backlit squirrel pauses the action, brings quiet after consecutive landscapes
+  // 12 — Backlit mammal pause: squirrel on fence post quiets the energy after consecutive landscapes
   {
     id: 'squirrel-02',
     title: 'California Ground Squirrel Standing Alert',
@@ -184,17 +161,40 @@ export const photos: Photo[] = [
     exif: { camera: 'Sony α6700', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/3200s', iso: 320 },
     story: 'Standing upright on a fence post with the sun behind him, he held this pose for nearly 30 seconds — scanning the open field for hawks. The rim-lit fur against the dark background made it feel almost like a studio portrait.',
   },
-  // 15 — Muted soft calm: Anna's hummingbird on buckeye, subdued palette tones things down
+  // 13 — Wetland action callback: stilts mid-quarrel, water-spray energy echoes the opener
   {
-    id: 'hummingbird-04',
-    title: "Anna's Hummingbird on California Buckeye",
+    id: 'stilts-01',
+    title: 'Black-necked Stilts Mid-Quarrel',
+    location: 'Don Edwards San Francisco Bay NWR, CA',
+    category: 'birds',
+    tags: ['stilt', 'shorebird', 'water', 'flight', 'splash'],
+    aspectRatio: 1.777,
+    src: r2src('19DA5519-349B-4E16-B4C5-548C890B7372_1_105_c.jpeg'),
+    exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/4000s', iso: 640 },
+    story: 'I heard the commotion before I saw it — a sharp, insistent squabble cutting through the marsh. Turned to find these two going at it, water flying in every direction.',
+  },
+  // 14 — Yellow burst: western kingbird landing, bold against blue sky after wetland splash
+  {
+    id: 'kingbird-01',
+    title: 'Western Kingbird Landing',
     location: 'California',
     category: 'birds',
-    tags: ['hummingbird', "anna's hummingbird", 'buckeye', 'flower', 'hovering'],
-    aspectRatio: 1.581,
-    src: r2src('B489E57E-9FC3-4CDA-89F9-70E850FE12F2_1_201_a.jpeg'),
+    tags: ['kingbird', 'western kingbird', 'flight', 'landing', 'flycatcher'],
+    aspectRatio: 1.333,
+    src: r2src('DSC07084.jpeg'),
   },
-  // 16 — Cool blue drift: sea otter resting on water, quiet and reflective after the hummingbird
+  // 15 — Airy relief: rufous against open sky lifts the mood after consecutive landscapes
+  {
+    id: 'hummingbird-03',
+    title: 'Rufous Hummingbird Against the Sky',
+    location: 'UCSC Arboretum, Santa Cruz, CA',
+    category: 'birds',
+    tags: ['hummingbird', 'rufous', 'sky', 'portrait', 'perched'],
+    aspectRatio: 0.8,
+    src: r2src('AAA4D698-9F34-4F3B-820B-49BC4C932FC4_1_201_a.jpeg'),
+    exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/2500s', iso: 1000 },
+  },
+  // 16 — Cool blue drift: sea otter resting on water, marine repose after the sky shots
   {
     id: 'sea-otter-01',
     title: 'Sea Otter Resting on the Water',
@@ -204,7 +204,7 @@ export const photos: Photo[] = [
     aspectRatio: 1.334,
     src: r2src('DSC05325.jpeg'),
   },
-  // 17 — Forest quiet: squirrel on sunlit log, warm dappled light slows the tempo
+  // 17 — Forest warmth: squirrel on sunlit log, dappled light slows the tempo before the close
   {
     id: 'squirrel-01',
     title: 'Ground Squirrel on a Log',
@@ -215,18 +215,27 @@ export const photos: Photo[] = [
     src: r2src('5C77A578-764C-4FD8-A660-2C72BD04522A_1_105_c.jpeg'),
     exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/800s', iso: 640 },
   },
-  // 18 — Contemplative perch: rufous in soft bokeh, intimate closing energy builds before final pair
+  // 18 — Moody spring silhouette: flycatcher on oak twig, dark and contemplative, gallery slows
   {
-    id: 'hummingbird-01',
-    title: 'Rufous Hummingbird Perched',
-    location: 'UCSC Arboretum, Santa Cruz, CA',
+    id: 'flycatcher-01',
+    title: 'Pacific-slope Flycatcher on Spring Oak',
+    location: 'California',
     category: 'birds',
-    tags: ['hummingbird', 'rufous', 'portrait', 'perched'],
+    tags: ['flycatcher', 'pacific-slope flycatcher', 'oak', 'spring', 'perched'],
     aspectRatio: 0.75,
-    src: r2src('4B6B520C-A94D-4D0D-A5DB-F10C5658960B_1_105_c.jpeg'),
-    exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/2000s', iso: 640 },
+    src: r2src('F3DC6E00-99D8-491A-B675-3C591D169F6C_1_201_a.jpeg'),
   },
-  // 19 — Structural lift: great blue heron on nest against vivid blue sky, bright penultimate
+  // 19 — Soft muted calm: Anna's on buckeye, colors whisper before the finale
+  {
+    id: 'hummingbird-04',
+    title: "Anna's Hummingbird on California Buckeye",
+    location: 'California',
+    category: 'birds',
+    tags: ['hummingbird', "anna's hummingbird", 'buckeye', 'flower', 'hovering'],
+    aspectRatio: 1.581,
+    src: r2src('B489E57E-9FC3-4CDA-89F9-70E850FE12F2_1_201_a.jpeg'),
+  },
+  // 20 — Structural lift: great blue heron on nest against vivid blue sky, penultimate energy
   {
     id: 'heron-01',
     title: 'Great Blue Heron on Nest',
@@ -237,7 +246,18 @@ export const photos: Photo[] = [
     src: r2src('AFF3FC0C-2B7D-4387-8FF0-26F5D6132893_1_105_c.jpeg'),
     exif: { camera: 'Sony α6700', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/8', shutter: '1/2000s', iso: 1600 },
   },
-  // 20 — Atmospheric finale: cormorant silhouettes at dusk, the gallery goes quiet
+  // 21 — Intimate closing perch: rufous in soft bokeh, contemplative before the finale
+  {
+    id: 'hummingbird-01',
+    title: 'Rufous Hummingbird Perched',
+    location: 'UCSC Arboretum, Santa Cruz, CA',
+    category: 'birds',
+    tags: ['hummingbird', 'rufous', 'portrait', 'perched'],
+    aspectRatio: 0.75,
+    src: r2src('4B6B520C-A94D-4D0D-A5DB-F10C5658960B_1_105_c.jpeg'),
+    exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/2000s', iso: 640 },
+  },
+  // 22 — Atmospheric dusk finale: cormorant silhouettes, the gallery goes dark and still
   {
     id: 'cormorant-01',
     title: 'Cormorants in Flight at Dusk',
