@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {colors} from '../theme/colors';
 
-const links = ['Gallery', 'About', 'Contact'];
+const links = ['Gallery', 'About'];
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);

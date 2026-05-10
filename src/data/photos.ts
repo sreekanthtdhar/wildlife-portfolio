@@ -139,7 +139,18 @@ export const photos: Photo[] = [
     src: r2src('C18C7031-805B-4A58-9789-86DBCD3EAB31_1_105_c.jpeg'),
     exif: { camera: 'Sony α6700', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/8', shutter: '1/1250s', iso: 1000 },
   },
-  // 11 — Explosive energy: Anna's displaying with wings fully spread, electric after the forest dark
+  // 11 — Nocturnal double-stare: twin owl owlets in pine, golden eyes pierce the dark after the elk landscape
+  {
+    id: 'great-horned-owl-01',
+    title: 'Great Horned Owl Owlets in Pine',
+    location: 'California',
+    category: 'birds',
+    tags: ['owl', 'great horned owl', 'owlet', 'juvenile', 'pine'],
+    aspectRatio: 0.75,
+    src: r2src('43E46839-B77F-4C2F-8781-275480F73567_1_201_a.jpeg'),
+    story: 'Two owlets, barely out of the nest, sitting side by side in a pine and staring down with those impossible golden eyes. The kind of shot you compose for ten seconds and remember for ten years.',
+  },
+  // 12 — Explosive energy: Anna's displaying with wings fully spread, electric release after the dark owlet stare
   {
     id: 'hummingbird-05',
     title: "Anna's Hummingbird Displaying",
@@ -149,7 +160,7 @@ export const photos: Photo[] = [
     aspectRatio: 1.333,
     src: r2src('DSC05778.jpeg'),
   },
-  // 12 — Backlit mammal pause: squirrel on fence post quiets the energy after consecutive landscapes
+  // 13 — Backlit mammal pause: squirrel on fence post quiets the energy after consecutive landscapes
   {
     id: 'squirrel-02',
     title: 'California Ground Squirrel Standing Alert',
@@ -161,7 +172,7 @@ export const photos: Photo[] = [
     exif: { camera: 'Sony α6700', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/3200s', iso: 320 },
     story: 'Standing upright on a fence post with the sun behind him, he held this pose for nearly 30 seconds — scanning the open field for hawks. The rim-lit fur against the dark background made it feel almost like a studio portrait.',
   },
-  // 13 — Wetland action callback: stilts mid-quarrel, water-spray energy echoes the opener
+  // 14 — Wetland action callback: stilts mid-quarrel, water-spray energy echoes the opener
   {
     id: 'stilts-01',
     title: 'Black-necked Stilts Mid-Quarrel',
@@ -173,7 +184,7 @@ export const photos: Photo[] = [
     exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/4000s', iso: 640 },
     story: 'I heard the commotion before I saw it — a sharp, insistent squabble cutting through the marsh. Turned to find these two going at it, water flying in every direction.',
   },
-  // 14 — Yellow burst: western kingbird landing, bold against blue sky after wetland splash
+  // 15 — Yellow burst: western kingbird landing, bold against blue sky after wetland splash
   {
     id: 'kingbird-01',
     title: 'Western Kingbird Landing',
@@ -183,7 +194,7 @@ export const photos: Photo[] = [
     aspectRatio: 1.333,
     src: r2src('DSC07084.jpeg'),
   },
-  // 15 — Airy relief: rufous against open sky lifts the mood after consecutive landscapes
+  // 16 — Airy relief: rufous against open sky lifts the mood after consecutive landscapes
   {
     id: 'hummingbird-03',
     title: 'Rufous Hummingbird Against the Sky',
@@ -194,7 +205,7 @@ export const photos: Photo[] = [
     src: r2src('AAA4D698-9F34-4F3B-820B-49BC4C932FC4_1_201_a.jpeg'),
     exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/2500s', iso: 1000 },
   },
-  // 16 — Cool blue drift: sea otter resting on water, marine repose after the sky shots
+  // 17 — Cool blue drift: sea otter resting on water, marine repose after the sky shots
   {
     id: 'sea-otter-01',
     title: 'Sea Otter Resting on the Water',
@@ -204,7 +215,7 @@ export const photos: Photo[] = [
     aspectRatio: 1.334,
     src: r2src('DSC05325.jpeg'),
   },
-  // 17 — Forest warmth: squirrel on sunlit log, dappled light slows the tempo before the close
+  // 18 — Forest warmth: squirrel on sunlit log, dappled light slows the tempo before the close
   {
     id: 'squirrel-01',
     title: 'Ground Squirrel on a Log',
@@ -215,7 +226,7 @@ export const photos: Photo[] = [
     src: r2src('5C77A578-764C-4FD8-A660-2C72BD04522A_1_105_c.jpeg'),
     exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/800s', iso: 640 },
   },
-  // 18 — Moody spring silhouette: flycatcher on oak twig, dark and contemplative, gallery slows
+  // 19 — Moody spring silhouette: flycatcher on oak twig, dark and contemplative, gallery slows
   {
     id: 'flycatcher-01',
     title: 'Pacific-slope Flycatcher on Spring Oak',
@@ -225,7 +236,7 @@ export const photos: Photo[] = [
     aspectRatio: 0.75,
     src: r2src('F3DC6E00-99D8-491A-B675-3C591D169F6C_1_201_a.jpeg'),
   },
-  // 19 — Soft muted calm: Anna's on buckeye, colors whisper before the finale
+  // 20 — Soft muted calm: Anna's on buckeye, colors whisper before the finale
   {
     id: 'hummingbird-04',
     title: "Anna's Hummingbird on California Buckeye",
@@ -235,7 +246,7 @@ export const photos: Photo[] = [
     aspectRatio: 1.581,
     src: r2src('B489E57E-9FC3-4CDA-89F9-70E850FE12F2_1_201_a.jpeg'),
   },
-  // 20 — Structural lift: great blue heron on nest against vivid blue sky, penultimate energy
+  // 21 — Structural lift: great blue heron on nest against vivid blue sky, penultimate energy
   {
     id: 'heron-01',
     title: 'Great Blue Heron on Nest',
@@ -246,7 +257,7 @@ export const photos: Photo[] = [
     src: r2src('AFF3FC0C-2B7D-4387-8FF0-26F5D6132893_1_105_c.jpeg'),
     exif: { camera: 'Sony α6700', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/8', shutter: '1/2000s', iso: 1600 },
   },
-  // 21 — Intimate closing perch: rufous in soft bokeh, contemplative before the finale
+  // 22 — Intimate closing perch: rufous in soft bokeh, contemplative before the finale
   {
     id: 'hummingbird-01',
     title: 'Rufous Hummingbird Perched',
@@ -257,7 +268,7 @@ export const photos: Photo[] = [
     src: r2src('4B6B520C-A94D-4D0D-A5DB-F10C5658960B_1_105_c.jpeg'),
     exif: { camera: 'Sony α6000', lens: 'FE 200–600mm f/5.6–6.3 G OSS @ 600mm', aperture: 'f/6.3', shutter: '1/2000s', iso: 640 },
   },
-  // 22 — Atmospheric dusk finale: cormorant silhouettes, the gallery goes dark and still
+  // 23 — Atmospheric dusk finale: cormorant silhouettes, the gallery goes dark and still
   {
     id: 'cormorant-01',
     title: 'Cormorants in Flight at Dusk',
